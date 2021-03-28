@@ -23,6 +23,8 @@ def endpoint(event, context):
     body['data'] = {
         "message": "The time is " + str(current_time) + "."
     }
+    
+    print("poke")
    
     response = json.dumps(body)
 
