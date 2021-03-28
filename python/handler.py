@@ -21,7 +21,7 @@ def endpoint(event, context):
     #}
 
     body['data'] = {
-        "message": "time is " + str(current_time)
+        "message": "The time is " + str(current_time) + "."
     }
    
     response = json.dumps(body)
